@@ -1,6 +1,5 @@
 import { getSortedPostsData } from '../lib/posts'
 import Head from 'next/head'
-import Layout from 'next/layout'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
