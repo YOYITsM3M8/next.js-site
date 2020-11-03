@@ -7,9 +7,9 @@ import utilStyles from '../../styles/utils.module.css'
 export default function Post({ postData }) {
   return (
     <Layout>
-      <Head>
+      <head>
         <title>{postData.title}</title>
-      </Head>
+      </head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={utilStyles.lightText}>
