@@ -1,4 +1,5 @@
 import Layout from '../../components/layout'
+import Link from 'next/link'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
